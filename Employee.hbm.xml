@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"> 
+  
+ <hibernate-mapping>
+   
+  <class name="beans.Employee" table="emp400">  
+    <id name="id">  
+     <generator class="test.MyGen"></generator>  
+    </id> 
+<!--      <param name="table">emp400</param> -->
+<!--      <param name="column">id</param> -->
+<!--      <param name="max_10">10</param> -->
+      
+            
+    <property name="name" column="sname"/>
+    <property name="email" column="semail"/>
+    <property name="addr" column="saddr"/>
+    <property name="sal" column="ssal"/>
+    
+            
+  </class>  
+            
+ </hibernate-mapping> 
