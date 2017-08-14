@@ -1,2 +1,2 @@
 # HibernateProject
-first repository
+This is my first project on github central repository.
